@@ -23,6 +23,8 @@ export default function CreatorCTA() {
           z-10
           h-content w-full
           object-fill
+          max-md:hidden
+          max-lg:hidden
         "
       />
 
