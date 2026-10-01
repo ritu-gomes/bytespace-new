@@ -80,7 +80,10 @@ function Navbar() {
           </div>
 
           {/* LOGO */}
-          <a className="btn btn-ghost h-auto min-h-0 p-0">
+          <a
+            href="/"
+            className="inline-flex transition-transform duration-200 hover:scale-105"
+          >
             <img
               src={NavbarLogo}
               alt="ByteSpace"
@@ -90,6 +93,8 @@ function Navbar() {
                 sm:w-36.25
                 md:w-38.75
                 lg:w-42.75
+                transition-opacity duration-200
+                hover:opacity-90
               "
             />
           </a>
