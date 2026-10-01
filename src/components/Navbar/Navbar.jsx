@@ -1,3 +1,5 @@
+import NavbarLogo from "../../assets/NavBar_Logo.svg";
+import ShopIcon from "../../assets/shop-icon.svg";
 function Navbar() {
   return (
     <nav className="w-full">
@@ -80,7 +82,7 @@ function Navbar() {
           {/* LOGO */}
           <a className="btn btn-ghost h-auto min-h-0 p-0">
             <img
-              src="/src/assets/Header_Logo.svg"
+              src={NavbarLogo}
               alt="ByteSpace"
               className="
                 h-auto
@@ -186,7 +188,7 @@ function Navbar() {
             <li>
               <a className="p-2">
                 <img
-                  src="/src/assets/shop-icon.svg"
+                  src={ShopIcon}
                   alt="Shopping"
                   className="
                     h-5

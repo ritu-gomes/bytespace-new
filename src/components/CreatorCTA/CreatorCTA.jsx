@@ -29,9 +29,9 @@ export default function CreatorCTA() {
       {/* Content */}
       <div
         className="
-          relative z-20
+          relative z-50
           mx-auto flex min-h-105
-          w-[90%] max-w-225
+          w-[92%] max-w-225
           flex-col items-center
           justify-center
           text-center
@@ -42,10 +42,11 @@ export default function CreatorCTA() {
         <h2
           className="
             font-['Poppins']
-            text-[44px]
+            text-[30px]
             font-semibold
-            leading-[1.1]
+            leading-[1.15]
             text-[#F5F5F6]
+            sm:text-[36px]
             md:text-[44px]
           "
         >
@@ -57,13 +58,15 @@ export default function CreatorCTA() {
         {/* Description */}
         <p
           className="
-            mt-7
+            mt-5
             max-w-212.5
             font-['Satoshi']
-            text-[16px]
+            text-[14px]
             font-normal
-            leading-5.5
+            leading-5
             text-[#F5F5F6]
+            sm:text-[15px]
+            md:text-[16px]
           "
         >
           Experience the collaboration of numerous creators and an
@@ -78,7 +81,7 @@ export default function CreatorCTA() {
         <button
           className="
             btn
-            mt-7
+            mt-5
             h-10.5
             min-h-10.5
             rounded-full
@@ -86,12 +89,13 @@ export default function CreatorCTA() {
             bg-[#D4FB20]
             px-6
             font-['Satoshi']
-            text-[16px]
+            text-[15px]
             font-medium
             text-[#242528]
             shadow-none
             hover:bg-[#e4ff6d]
             hover:text-black
+            sm:text-[16px]
           "
         >
           Join as Creator
